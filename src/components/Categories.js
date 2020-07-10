@@ -12,7 +12,8 @@ props.dispatch({
 type:'CHANGE-CATEGORY',
 payload:props.category[i].name,
 })
-    }}>{props.category[i].name || props.category[i].displayName}</Button>)
+
+    }}>{props.category[i].name || props.category[i].displayName}</Button> )
   }
  
 return(
@@ -27,6 +28,7 @@ const mapStateToProps = (state) =>{
   console.log('state from category' , state);
   return{
     category:state.category,
+    cart:state.cart,
 
   }
 }

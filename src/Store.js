@@ -16,6 +16,7 @@ let newState = {...state}
 
   switch(action.type){
      case 'ADD-TO-CART':
+       newState.category = action.payload;
      break;
      case 'CHANGE-CATEGORY':
        newState.currentCategory = action.payload;

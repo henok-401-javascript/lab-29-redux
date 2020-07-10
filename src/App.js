@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import {Provider} from 'react-redux';
 import store from './Store';
 import Products from './components/Products';
@@ -16,6 +17,7 @@ function App() {
   <Header/>
   <Category/>
   <Products/>
+  <Footer/>
       </Provider>
       </Card>
       </Container>
