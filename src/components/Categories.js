@@ -7,7 +7,7 @@ let categoryName = [];
 function Category(props){
 
   for(let i =0; i < props.category.length; i++){
-    categoryName.push(  <Button key={i} variant="contained" color="primary" onClick={(e) =>{
+    categoryName.push(  <Button key={i} variant="contained" color="secondary" onClick={(e) =>{
 props.dispatch({
 type:'CHANGE-CATEGORY',
 payload:props.category[i].name,
