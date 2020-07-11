@@ -9,8 +9,8 @@
 ### Links and Resources
 
 
-- [submission PR]()
-- [netlify]()
+- [submission PR](https://github.com/henok-401-javascript/storefront/pull/1)
+- [netlify](https://storefront-lab29.netlify.app)
 
 
 
