@@ -11,16 +11,16 @@ import Card from '@material-ui/core/Card';
 function App() {
   return (
     <div className="App">
+  <Header/>
       <Container maxWidth="sm">
       <Card>
       <Provider store={store}>
-  <Header/>
   <Category/>
   <Products/>
-  <Footer/>
       </Provider>
       </Card>
       </Container>
+  <Footer/>
     </div>
   );
 }
