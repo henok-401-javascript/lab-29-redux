@@ -25,7 +25,7 @@ return(
 }
 
 const mapStateToProps = (state) =>{
-  console.log('state from category' , state);
+  
   return{
     category:state.category,
     cart:state.cart,
